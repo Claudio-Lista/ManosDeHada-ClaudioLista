@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 10;
+}
+ 
+h1 {
+    color: blue;
+    font-size: 4rem;
+}
+
+.Fuente1 {
+    font-size: 1rem;
+    font-family: "Roboto";
+
+}
+
+.img-cake img{
+    width: 90%;
+}
+.water{
+    grid-area: water;
+    width: 100%;
+ 
+    font-family: "Oleo Script Swash Caps";
+    font-size: 2vh;
+}
+.productos{
+display: flex;
+}
+.Titulo {
+    font-family: "Water Brush";
+    font-size: 2em;
+}
+
+.img-produc{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.img-product-alone{
+margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.img-produc img{
+ width: 100%;
+ height: 13vh;
+}
+ul { 
+    margin: 20px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+}
+
+ul li a {
+    margin-left: 20px;
+
+
+}
+
+footer{
+    grid-area:footer;
+    width: 100%; 
+       display: flex;
+flex-direction: column;
+    justify-content: center;
+}
+footer div{
+    margin-top: 20px;
+    justify-content: space-around;
+    display: flex;
+    
+}
+
+#sn-grid-template{
+    grid-template-areas: "header"
+                         "Fuente1"
+                        "water"
+                        "img-sn"
+                        "footer";           
+}
+.img-sn
+{
+    grid-area:img-sn;
+    width: 100%;
+}
+.img-sn img{
+    width: 100%;
+}
+body {
+    background-image: url(../img/5589238.jpg);
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+}
+
